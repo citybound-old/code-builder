@@ -1,0 +1,30 @@
+{
+  "name": "meta-tools",
+  "version": "1.0.0",
+  "description": "Programmatically create nested code which will be converted to static single assignment form",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Anselm Eickhoff",
+    "email": "anselm.eickhoff@gmail.com",
+    "url": "https://github.com/aeickhoff"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "metaprogramming",
+    "code",
+    "generation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aeickhoff/meta-tools.git"
+  },
+  "homepage": "https://github.com/aeickhoff/meta-tools",
+  "bugs": {
+    "url": "https://github.com/aeickhoff/meta-tools/issues"
+  }
+}
