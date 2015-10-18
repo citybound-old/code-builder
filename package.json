@@ -1,5 +1,5 @@
 {
-  "name": "meta-tools",
+  "name": "code-builder",
   "version": "0.0.3",
   "description": "Programmatically create nested code which will be converted to static single assignment form",
   "main": "index.js",
@@ -25,10 +25,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/citboundy/meta-tools.git"
+    "url": "git://github.com/citboundy/code-builder.git"
   },
-  "homepage": "https://github.com/citybound/meta-tools",
+  "homepage": "https://github.com/citybound/code-builder",
   "bugs": {
-    "url": "https://github.com/citybound/meta-tools/issues"
+    "url": "https://github.com/citybound/code-builder/issues"
   }
 }
