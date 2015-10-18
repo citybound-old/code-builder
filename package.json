@@ -21,10 +21,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/aeickhoff/meta-tools.git"
+    "url": "git://github.com/citboundy/meta-tools.git"
   },
-  "homepage": "https://github.com/aeickhoff/meta-tools",
+  "homepage": "https://github.com/citybound/meta-tools",
   "bugs": {
-    "url": "https://github.com/aeickhoff/meta-tools/issues"
+    "url": "https://github.com/citybound/meta-tools/issues"
   }
 }
