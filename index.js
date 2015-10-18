@@ -1,4 +1,4 @@
 module.exports = {
-	SourceWriter: require("./SourceWriter.js"),
-	CodeBuilder: require("./CodeBuilder-compiled.js")
+	SourceWriter: require("./src/SourceWriter.js"),
+	CodeBuilder: require("./src/CodeBuilder.js")
 };

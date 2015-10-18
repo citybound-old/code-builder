@@ -1,3 +1,5 @@
+import metaEval from "meta-eval";
+
 var DEBUG_SHOW_COMPILATION = false;
 
 var ALLOW_ALIASING_OF_FIELDS = true;
@@ -63,7 +65,7 @@ function compile(name, args, sourceBody, context, environment) {
 		environment,
 		"CodeBuilder:" + context + ":" + name,
 		"codeBuilder/" + context + "/" + name,
-		sourceUrlBase + "generated/"
+		"dependencies://meta-tools/CodeBuilder/"
 	);
 
 	return functionExports[name];
