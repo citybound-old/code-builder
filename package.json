@@ -10,7 +10,7 @@
     "url": "https://github.com/aeickhoff"
   },
   "dependencies": {
-    "meta-eval": "git://github.com/citybound/meta-eval.git#master"
+    "meta-eval": "*"
   },
   "devDependencies": {},
   "scripts": {
