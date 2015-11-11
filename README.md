@@ -17,4 +17,4 @@ Your help is highly welcome! :)
 
 ## License
 
-MIT, see [LICENSE.md](http://github.com/aeickhoff/code-builder/blob/master/LICENSE.md) for details.
+MIT, see [LICENSE.md](http://github.com/citybound/code-builder/blob/master/LICENSE.md) for details.
