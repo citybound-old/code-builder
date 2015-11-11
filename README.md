@@ -1,13 +1,20 @@
-# meta-tools
+# code-builder
 
 [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
 
 Programmatically create nested code which will be converted to static single assignment form
 
-## Usage
+## Purpose
 
-[![NPM](https://nodei.co/npm/meta-tools.png)](https://www.npmjs.com/package/meta-tools)
+Main use cases are [nd-linalg](https://github.com/citybound/nd-linalg) and [vectorizer](https://github.com/citybound/vectorizer).
+
+Usage examples coming soon...
+
+## Contribution
+
+Goals, wishes and bugs are managed as GitHub Issues - if you want to help, have a look there and submit your work as pull requests.
+Your help is highly welcome! :)
 
 ## License
 
-MIT, see [LICENSE.md](http://github.com/aeickhoff/meta-tools/blob/master/LICENSE.md) for details.
+MIT, see [LICENSE.md](http://github.com/aeickhoff/code-builder/blob/master/LICENSE.md) for details.

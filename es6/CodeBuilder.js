@@ -5,8 +5,9 @@ var DEBUG_SHOW_COMPILATION = false;
 var ALLOW_ALIASING_OF_FIELDS = true;
 var ALLOW_ALIASING_OF_EXPRESSIONS = true;
 
-Object.defineProperties(exports, {
-	"createConstructor": {value: CodeBuilder},
+module.exports = CodeBuilder;
+
+Object.defineProperties(CodeBuilder, {
 	"compile": {value: compile},
 });
 
@@ -58,14 +59,14 @@ function compile(name, args, sourceBody, context, environment) {
 		${sourceBody}}`;
 
 	let functionExports = {};
-	Object.adopt(environment, {exports: functionExports});
+	environment.exports = functionExports;
 
 	metaEval(
 		source,
 		environment,
 		"CodeBuilder:" + context + ":" + name,
 		"codeBuilder/" + context + "/" + name,
-		"dependencies://meta-tools/CodeBuilder/"
+		"dependencies://code-builder/"
 	);
 
 	return functionExports[name];
